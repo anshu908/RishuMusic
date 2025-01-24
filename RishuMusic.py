@@ -78,12 +78,12 @@ LOGGER = logging.getLogger("SYSTEM")
 if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", "14050586"))
+API_HASH = getenv("API_HASH", "42a60d9c657b106370c79bb0a8ac560c")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 STRING_SESSION = getenv("STRING_SESSION", None)
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
-OWNER_ID = int(getenv("OWNER_ID", "5738579437"))
+OWNER_ID = int(getenv("OWNER_ID", "6258915779"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001992970818"))
 START_IMAGE_URL = getenv("START_IMAGE_URL","https://envs.sh/oKU.jpg")
 
